@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canil da Cidade - Cadastrar Animal</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Canil da Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Cadastrar Animal</a></li>
+                <li><a href="adocao.html">Adotar Animal</a></li>
+                <li><a href="doacao.html">Fazer Doação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cadastrar Animal</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome do Animal:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="especie">Espécie:</label>
+                <input type="text" id="especie" name="especie" required>
+
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca">
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" required>
+
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="Macho">Macho</option>
+                    <option value="Fêmea">Fêmea</option>
+                </select>
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" required></textarea>
+
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Canil da Cidade</p>
+    </footer>
+</body>
+</html>
