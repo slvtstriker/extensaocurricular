@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canil da Cidade - Fazer Doação</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Canil da Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Cadastrar Animal</a></li>
+                <li><a href="adocao.html">Adotar Animal</a></li>
+                <li><a href="doacao.html">Fazer Doação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fazer Doação</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="valor">Valor da Doação:</label>
+                <input type="number" id="valor" name="valor" required>
+
+                <label for="tipo">Tipo de Doação:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="Dinheiro">Dinheiro</option>
+                    <option value="Ração">Ração</option>
+                    <option value="Medicamentos">Medicamentos</option>
+                    <option value="Outros">Outros</option>
+                </select>
+
+                <button type="submit">Doar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Canil da Cidade</p>
+    </footer>
+</body>
+</html>
